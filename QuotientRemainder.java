@@ -1,0 +1,32 @@
+/**
+  *  To compute Quotient and Remainder
+  */
+
+import java.util.*;
+public class QuotientRemainder {
+
+  public static void main(String[] args) {
+
+    // Get Divend and Divisor input from user
+	
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the Divedend");
+    int dividend=sc.nextInt();
+
+    System.out.println("Enter the Divedend");
+    int divisor=sc.nextInt();
+
+    // Computing Process
+
+    int quotient = dividend / divisor;
+    int remainder = dividend % divisor;
+
+    System.out.println("Quotient = " + quotient);
+    System.out.println("Remainder = " + remainder);
+  }
+}
+
+
+
+
+
